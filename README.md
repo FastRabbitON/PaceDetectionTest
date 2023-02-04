@@ -11,7 +11,7 @@
 * [Contact](#contact)
 
 ## General Information
-Simple program to check pace detection.
+Simple program to test pace detection.
 
 ## How to run
 1. Download the entire repository
