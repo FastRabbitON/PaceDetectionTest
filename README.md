@@ -28,7 +28,7 @@ Simple program to test pace detection.
 
 ## Additional Informations
 The program was used at the university to conduct a psychophysical experiment: Pace Detection. \
-Selected result:
+Selected result for 150bpm:
 ![Alt text](https://github.com/FastRabbitON/FastRabbitON/blob/main/GraphResultPac.png "GraphResultPac")
 
 ## Technologies Used
