@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pace Perception</title>
+</head>
+
+<body>
+
+    <div id="settingContainer" class="settingContainer">
+
+        <div class="mainSettingContainer">
+
+            <div class="oneContainer">
+
+                <div class="userSettings">
+                    <div class="title"> User Name</div>
+                    <input id="user" type="text" value="UserOne" placeholder="User Name" onchange="VariableChange()">
+                </div>
+
+                <div class="BasePaceSettings">
+                    <div class="title">Base Pace [bpm]</div>
+                    <select id="basePaceList" type="number" onchange="VariableChange()">
+                        <option value="75">75</option>
+                        <option value="150" selected>150</option>
+                        <option value="250">250</option>
+                    </select>
+                </div>
+
+                <div class="timeGapSettings">
+                    <div class="title">Time gap [ms]</div>
+                    <input id="timeGap" type="number" value="1500" onchange="VariableChange()">
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="containerBtn">
+            <button class="StartBtn" id="StartBtn" onclick="StartFunction()">Start</button>
+            <button class="DefaultBtn" id="DefaultBtn" onclick="VariableReset()">Default</button>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div id="mainTestContainer" class="mainTestContainer off">
+
+        <div id="infoBorder" class="infoBorder"></div>
+
+        <div id="infoRound" class="infoRound"></div>
+
+        <div id="answerButtonsContainer" class="answerButtonsContainer">
+            <div class="title">SAME PACE?</div>
+            <div class="answerButtons">
+                <button id="YesBtn" onclick="YesAnswer()">YES</button>
+                <button id="NoBtn" onclick="NoAnswer()">NO</button>
+            </div>
+
+        </div>
+
+        <div class="StopButton">
+            <button id="Stop" onclick="VariableReset()">STOP</button>
+        </div>
+
+        <div id="saveRend" class="saveRend"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
