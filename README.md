@@ -22,7 +22,7 @@ Simple program to test pace detection.
  1. After open program there will be main screen with options:
   ![Alt text](https://github.com/FastRabbitON/FastRabbitON/blob/main/MainScreenPac.png "MainScreen")
  2. Change the option that you are intrested in and click **Start** button
- 3. There will play two audio samples one after the other, you must answer if they had same pace
+ 3.Two audio samples will play one after another, you must answer if they had same pace
  4. After all rounds will appear **Save Results** button, click it to save your results in excel
  5. **Stop** button reset everything and allow you back to main screen with options
 
