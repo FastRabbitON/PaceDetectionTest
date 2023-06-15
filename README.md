@@ -11,7 +11,9 @@
 * [Contact](#contact)
 
 ## General Information
-Simple program to test pace detection.
+Software to conduct pace discriminations test.
+
+![Alt text](https://github.com/FastRabbitON/FastRabbitON/blob/main/GifPace.gif)
 
 ## How to run
 1. Download the entire repository
